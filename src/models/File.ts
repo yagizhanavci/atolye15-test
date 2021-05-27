@@ -13,4 +13,4 @@ export type File = {
 /**
  * File position in List as [FolderPosition,FilePosition]
  */
-export type FilePosition = [number | null, number | null];
+export type FilePosition = [number, number];
